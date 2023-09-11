@@ -1,6 +1,6 @@
 import { Injectable,UnauthorizedException } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
-import { PrismaService } from '../prisma.service';
+import { PrismaService } from '../prisma/prisma.service';
 import * as bcrypt from 'bcrypt';
 import { LoginUserDto } from './dto';
 import { JwtPayload } from './interfaces/jwt-payload.interfaces';
